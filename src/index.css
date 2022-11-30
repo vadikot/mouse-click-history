@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.app {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background: darkslategray;
+}
+
+.circle {
+    position: absolute;
+    background: floralwhite;
+    border-radius: 50%;
+}
+
+.buttons__wrap {
+    display: flex;
+    justify-content: center;
+}
+
+.btn {
+    margin: 20px;
+    background: none;
+    border: 1px solid #ffffff;
+    color: #ffffff;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+.btn:disabled {
+    border: 1px solid gray;
+    color: gray;
+    cursor: default;
+}
+
+.text {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -90px;
+    margin-top: -15px;
+    color: #ffffff;
+    /*color: antiquewhite;*/
+    font-size: 25px;
+    font-family: sans-serif;
+    cursor: default;
+}
